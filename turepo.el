@@ -2,8 +2,8 @@
 
 ;; Copyright (C) 2025 Swarnim Barapatre
 
-;; Author: Swarnim Barapatre <swarnim.barapatre@accurateic.in>
-;; Maintainer: Swarnim Barapatre <swarnim.barapatre@accurateic.in>
+;; Author: Swarnim Barapatre <swarnim14.9@hotmail.com>
+;; Maintainer: Swarnim Barapatre <swarnim14.9@hotmail.com>
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "28.1"))
 ;; Keywords: vc, git, convenience
