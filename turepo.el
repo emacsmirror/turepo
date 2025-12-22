@@ -66,8 +66,8 @@ Argument ABS-FP Absolute file path of the file to be read."
 
 	;; search for git url
 	(cond
-	 ;; if it's already HTTPS, use it directly
-	 ((string-match "url = \\(https://[^ \t\n]+\\)" turepo-git-cfg)
+	 ;; if it's already HTTP/HTTPS, use it directly
+	 ((string-match "url = \\(https?://[^ \t\n]+\\)" turepo-git-cfg)
 	  (let* ((turepo-url-raw (match-string 1 turepo-git-cfg))
 		 ;; strip .git suffix if present
 		 (turepo-url (replace-regexp-in-string "\\.git$" "" turepo-url-raw)))
