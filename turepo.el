@@ -42,7 +42,7 @@
 
 (defun turepo-read-abs-fp (turepo-abs-fp)
   "Read text as string from an absolute file path.
-Argument ABS-FP Absolute file path of the file to be read."
+Argument TUREPO-ABS-FP Absolute file path of the file to be read."
   (when (file-exists-p turepo-abs-fp)
     (with-temp-buffer
       (insert-file-contents turepo-abs-fp)
