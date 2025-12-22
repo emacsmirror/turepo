@@ -56,8 +56,6 @@ Argument ABS-FP Absolute file path of the file to be read."
   (let* ((turepo-root-dir (vc-root-dir))
          (turepo-git-cfg-fp (file-name-concat (expand-file-name turepo-root-dir) ".git" "config"))
          (turepo-git-cfg (turepo-read-abs-fp turepo-git-cfg-fp)))
-    (message "Root Directory: %s" turepo-root-dir)
-    (message "%s" turepo-git-cfg)
 
     ;; search for git url
     (cond
@@ -79,7 +77,7 @@ Argument ABS-FP Absolute file path of the file to be read."
                                   "gitlab.com"
                                 "github.com"))
              (turepo-url (concat "https://" turepo-hostname "/" turepo-repo-path)))
-        (message "Opening: %s" turepo-url)
+        (message "[turepo-info] Opening %s" turepo-url)
         (browse-url turepo-url)))
 
      (t (message "Could not find git remote URL")))))
