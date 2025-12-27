@@ -4,8 +4,7 @@ Open your project's git repository in the browser in a flash.
 
 [![MELPA](https://melpa.org/packages/turepo-badge.svg)](https://melpa.org/#/turepo)
 
-![External Demo GIF](https://imgur.com/a/JK5PMJU)
-
+![Demo](https://i.imgur.com/oBmunax.gif)
 
 ## Features
 
