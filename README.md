@@ -3,6 +3,8 @@
 Open your project's git repository in the browser in a flash.
 
 [![MELPA](https://melpa.org/packages/turepo-badge.svg)](https://melpa.org/#/turepo)
+[![Elisp Byte Compilation CI](https://github.com/swarnimcodes/turepo/actions/workflows/byte-compilation.yml/badge.svg?branch=main)](https://github.com/swarnimcodes/turepo/actions/workflows/byte-compilation.yml)
+
 
 ![Demo](https://i.imgur.com/oBmunax.gif)
 
